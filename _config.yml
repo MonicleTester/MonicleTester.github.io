@@ -1,13 +1,13 @@
-title: "" # Your Podcast's Title 
-description: "" # Your Podcast's Description
-itunes_author: "" # Your Name or Pen-Name
-owner_name: "" # Your NAME or PEN NAME
-owner_email: "" # Your EMAIL
-type: "" # episodic OR serial (serial means that there is an order in which the podcasts should be listened).
-explicit_bool: "" # yes OR no (in lowercase)
+title:  # Your Podcast's Title 
+description:  # Your Podcast's Description
+itunes_author:  # Your Name or Pen-Name
+owner_name:  # Your NAME or PEN NAME
+owner_email:  # Your EMAIL
+type:  # episodic OR serial (serial means that there is an order in which the podcasts should be listened).
+explicit_bool:  # yes OR no (in lowercase)
 itunes_summary: {{ site.description }} # This will match what you write in "description" on line 2 (above)
-baseurl: "/" # /your-repository-name
-url: "" # your-github-user-name.github.io
+baseurl: / # /your-repository-name
+url: monicletester.github.io # your-github-user-name.github.io
 
 theme: null
 markdown: kramdown

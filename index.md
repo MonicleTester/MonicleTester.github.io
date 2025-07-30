@@ -1,6 +1,6 @@
 ---
 layout: default
-title: {{site.title}}
+title: {{ site.title }}
 ---
 
 <h1>{{ site.title }}</h1>

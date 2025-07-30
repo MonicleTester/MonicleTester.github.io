@@ -1,0 +1,31 @@
+title: "" # Your Podcast's Title 
+description: "" # Your Podcast's Description
+itunes_author: "" # Your Name or Pen-Name
+owner_name: "" # Your NAME or PEN NAME
+owner_email: "" # Your EMAIL
+type: "" # episodic OR serial (serial means that there is an order in which the podcasts should be listened).
+explicit_bool: "" # yes OR no (in lowercase)
+itunes_summary: {{ site.description }} # This will match what you write in "description" on line 2 (above)
+baseurl: "/" # /your-repository-name
+url: "" # your-github-user-name.github.io
+
+theme: null
+markdown: kramdown
+
+collections:
+  episodes:
+    output: true
+    permalink: episodes/:title/
+
+defaults:
+  - scope:
+      path: ""
+      type: episodes
+    values:
+      layout: episode
+
+include: # Any files to include that are not already in "_includes"
+  - '_episodes/'
+
+plugins:
+  - jekyll-feed

@@ -21,5 +21,5 @@ title: {{site.title}}
     <a href="">Pandora Music</a><br>
     <a href="">Podcast Index</a><br>
     
-  </p>
+  </p> 
 </section>
